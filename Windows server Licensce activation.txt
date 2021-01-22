@@ -1,0 +1,16 @@
+Windows Activation commands KMS server
+
+To check the License:
+-------------------------
+Slmgr /dlv
+
+for help: 
+--------------------------
+slmgr /?
+
+for connecting to the KMS server
+-------------------------------------
+slmgr /skms <srvername>:port
+
+Eg: Slmgr /skms lhactivation.emea.svc.corpintra.net:1688
+

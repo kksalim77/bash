@@ -1,0 +1,1 @@
+pscp -pw <Password> D:\Test\test_data <userid@IP_address>:/home/< Linux folder Path>

@@ -1,0 +1,1 @@
+msiexec.exe /x{D2B9C003-A3CD-44A0-9DE5-52FE986C03E5} EPOSPAWNED=True /q /l+*v C:\Windows\Temp\McAfeeLogs\McAfeeHip8_UnInstall.log  

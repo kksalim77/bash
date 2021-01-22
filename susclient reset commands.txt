@@ -1,0 +1,15 @@
+auservwuauservREG Delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate /v SusClientId  /f
+REG Delete HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate /v SusClientIdValidation  /f
+REG Add HKLM\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate /v WUServer /t REG_SZ /d 
+http://SERVERNAME HERE:8530 /F
+
+
+Use Below manual steps first:
+
+** Before deleting any entry in registry, must take a backup for the registry value.
+
+open powershell as Administrator
+Stop the Windows Update service “net stop wuauserv”
+Delete “HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WindowsUpdate\ SusClientId”
+Start the Windows Update service “net start wuauserv”
+In a command prompt, run “wuauclt /detectnow”

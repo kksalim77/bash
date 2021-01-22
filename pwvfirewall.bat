@@ -1,0 +1,1 @@
+netsh advfirewall firewall add rule name="pwvaccess" dir=in action=allow protocol=TCP localport=22,139,445,135

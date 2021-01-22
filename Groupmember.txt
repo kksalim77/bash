@@ -1,0 +1,5 @@
+psexec64 \\<server_name> net localgroup Administrators  ><filepath with user ids>
+
+
+
+psexec64 \\Winsrv01 net localgroup Administrators  >c:\Users.txt

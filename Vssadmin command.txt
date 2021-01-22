@@ -1,0 +1,69 @@
+C:\Users\agsc_rdi_a_salabdu>vssadmin list writers
+vssadmin 1.1 - Volume Shadow Copy Service administrative command-line tool
+(C) Copyright 2001-2005 Microsoft Corp.
+
+Writer name: 'Task Scheduler Writer'
+   Writer Id: {d61d61c8-d73a-4eee-8cdd-f6f9786b7124}
+   Writer Instance Id: {1bddd48e-5052-49db-9b07-b96f96727e6b}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'VSS Metadata Store Writer'
+   Writer Id: {75dfb225-e2e4-4d39-9ac9-ffaff65ddf06}
+   Writer Instance Id: {088e7a7d-09a8-4cc6-a609-ad90e75ddc93}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'Performance Counters Writer'
+   Writer Id: {0bada1de-01a9-4625-8278-69e735f39dd2}
+   Writer Instance Id: {f0086dda-9efc-47c5-8eb6-a944c3d09381}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'System Writer'
+   Writer Id: {e8132975-6f93-4464-a53e-1050253ae220}
+   Writer Instance Id: {67576e9a-2f9b-4cc9-8cde-b0857d709200}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'Oracle VSS Writer - IBD'
+   Writer Id: {26d02976-b909-43ad-af7e-62a4f625e372}
+   Writer Instance Id: {571ccb4c-6fa6-4c75-ab97-29e92fb3bf47}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'ASR Writer'
+   Writer Id: {be000cbe-11fe-4426-9c58-531aa6355fc4}
+   Writer Instance Id: {f01e1ecf-7d6c-44ff-9d50-ef0951ba437c}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'Oracle VSS Writer - ORA'
+   Writer Id: {26d02976-b909-43ad-af7e-62a4f625e372}
+   Writer Instance Id: {14c0fa01-f2a5-4609-aa7f-d636c203d30f}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'Registry Writer'
+   Writer Id: {afbab4a2-367d-4d15-a586-71dbb18f8485}
+   Writer Instance Id: {e21d63db-2444-401b-9095-d86bf9c39d46}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'COM+ REGDB Writer'
+   Writer Id: {542da469-d3e1-473c-9f4f-7847f01fc64f}
+   Writer Instance Id: {60ab68b8-5f9b-49b8-9b23-d25042c74ece}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'BITS Writer'
+   Writer Id: {4969d978-be47-48b0-b100-f328f07ac1e0}
+   Writer Instance Id: {a2558e49-dd83-43f9-b788-5e954eef5fcd}
+   State: [1] Stable
+   Last error: No error
+
+Writer name: 'WMI Writer'
+   Writer Id: {a6ad56c2-b509-4e6c-bb19-49d8f43532f0}
+   Writer Instance Id: {17bb4931-418b-41c9-af0c-10278327c40c}
+   State: [5] Waiting for completion
+   Last error: No error

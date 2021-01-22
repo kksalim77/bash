@@ -1,0 +1,6 @@
+pscp -pw <password> <Folderpath\*.*> userId@<IP address>:/home/<userID>/test/inbound/
+
+
+
+
+pscp -pw <password> C:\test\*.* user01@192.168.10.1:/home/user01/test/inbound/

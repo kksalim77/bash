@@ -1,0 +1,2 @@
+PowerShell.exe -PSConsoleFile "C:\Program Files\Quest Software\Management Shell for AD\ConsoleSettings.psc1" "& 'C:\Scripts\Pwd-Expire-Notification v2.0.ps1' "
+PowerShell.exe -PSConsoleFile "C:\Program Files\Quest Software\Management Shell for AD\ConsoleSettings.psc1" "& 'C:\Scripts\Account-Expire-Notification v2.0.ps1' "
